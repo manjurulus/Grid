@@ -1,0 +1,30 @@
+.devs-container{
+    width: 80%;
+    margin: 50px auto 0px;
+    background-color: #e9e9e9;
+    padding: 30px;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 150px 1fr;
+    gap: 10px;
+    justify-items: center;
+    align-items: center;
+
+    .devs-header{
+        grid-column: 1/-1;
+        text-align: center;
+    }
+    .devs{
+        text-align: center;
+        img{
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            
+            
+        }
+       
+    }
+}
